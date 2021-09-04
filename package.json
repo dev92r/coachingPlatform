@@ -4,9 +4,9 @@
   "description": "This is a test project",
   "main": "index.html",
   "scripts": {
-    "start":"npm run lite",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite":"lite-server"
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/dev92r/coachingPlatform/issues"
   },
-  "homepage": "https://github.com/dev92r/coachingPlatform#readme"
+  "homepage": "https://github.com/dev92r/coachingPlatform#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
