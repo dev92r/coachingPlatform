@@ -1,22 +1,61 @@
+$font-small-family:'Spectral', serif;
+
 body {
     font-family: 'Spectral SC', serif;
 }
+
+.font-small {
+    font-family: $font-small-family;
+}
+
+.container {
+    padding: 0px 20px;
+}
+
+//navigation
+
 .navbar {
-    background-color: #F3F4F4;
+    background-color: #f4f4f4;
     padding: 20px 0px;
     a {
-        color: #2C80CE;
+        color: #20518a;
     }
     .navbar-brand {
         font-size: 1.75rem;
     }
-    // .nav-link {
-    //     // margin: auto 16px;
-    // }
+    .nav-item {
+        position: relative;
+    }
+    .nav-link:hover, .nav-link:focus {
+        color: #2c80ce; 
+    }
+    .active {
+        color: #2c80ce;
+    }
+    .active::after {
+        content: ' ';
+        width: 20px;
+        height: 2px;
+        background: #2c80ce;
+        position: absolute;
+        bottom: 0px;
+        left: 1.5rem;
+    }
+    @media (max-width: 768px) {
+        .active::after {
+            left: 0;           
+        }
+    }
 }
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   }
 .custom-toggler {
-    border-color: #2C80CE;
+    border-color: #0082d4;
+}
+
+//jumbotron
+
+.custom-jumbotron {
+    background-color: #0082d4;
 }
