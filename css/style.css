@@ -4,6 +4,12 @@ body {
 .font-small {
   font-family: "Spectral", serif; }
 
+.font-darker {
+  color: #20518a; }
+
+.font-dark {
+  color: #2c80ce; }
+
 .container {
   padding: 0px 20px; }
 
@@ -54,3 +60,14 @@ footer {
   background: #2c80ce;
   position: relative;
   left: -4px; }
+
+.video-btn-play {
+  font-size: 6rem;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.video-btn-play:hover {
+  color: #2c80ce; }

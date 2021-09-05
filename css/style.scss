@@ -1,4 +1,6 @@
 $font-small-family:'Spectral', serif;
+$blue-darker: #20518a;
+$blue-dark:#2c80ce;
 
 body {
     font-family: 'Spectral SC', serif;
@@ -8,6 +10,12 @@ body {
     font-family: $font-small-family;
 }
 
+.font-darker {
+    color: $blue-darker;
+}
+.font-dark {
+    color: $blue-dark;
+}
 .container {
     padding: 0px 20px;
 }
@@ -77,4 +85,20 @@ footer {
     background: #2c80ce;
     position: relative;
     left:-4px
+}
+
+
+//video
+
+.video-btn-play {
+    font-size: 6rem;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video-btn-play:hover {
+    color: #2c80ce;
 }
