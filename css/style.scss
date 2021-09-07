@@ -112,3 +112,107 @@ footer {
 .carousel-indicators {
     bottom: -40px;
 }
+
+//about img container
+
+.about-leftimg-container {
+    background-image: url(/images/COLOURBOX10598748.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70%;
+    height: 500px;
+    position: relative;
+}
+
+.about-leftbox-container {
+    background: #023f60;
+    width: 50%;
+    position: absolute;
+    bottom: 0%;
+    right: 50%;
+    transform: translate(160%, -45%);
+}
+
+@media (max-width: 991px) {
+    .about-leftimg-container {
+        width: 100%;
+    }
+    .about-leftbox-container {
+        position: relative;
+        bottom:0;
+        right: 0;
+        transform: translate(0%, 0%);
+    }
+}
+
+
+.about-rightimg-container {
+    background-image: url(/images/COLOURBOX51255183.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70%;
+    height: 500px;
+    position: relative;
+    margin-left: 30%;
+}
+
+.about-rightbox-container {
+    background: #023f60;
+    width: 50%;
+    position: absolute;
+    bottom: 0%;
+    right: 160%;
+    transform: translate(160%, -45%);
+}
+
+@media (max-width: 991px) {
+    .about-rightimg-container {
+        width: 100%; 
+        margin-left: 0%;
+    }
+    .about-rightbox-container {
+        position: relative;
+        bottom:0;
+        left: 50%;
+        transform: translate(0%, 0%);
+    }
+}
+
+// card
+
+.card-avatar {
+    width: 20%;
+    height: auto;
+    padding: 6rem;
+    background: #f4f4f4;
+    border-radius: 50%;
+    background-image: url(/images/icons-user.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-avatar-body, .custom-card-container {
+    padding-top: 8rem;
+}
+
+.custom-card {
+    background: #023f60;
+    margin-bottom: 8rem;
+    border:4px solid white;
+}
+.custom-card:last-child {
+    margin-bottom: 0rem;
+}
+
+//contact
+.submit-btn {
+    background:#20518a;
+}
+
