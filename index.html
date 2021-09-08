@@ -5,13 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <!-- Bootstrap CSS -->
+    <!-- CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200&family=Spectral:wght@300&display=swap" rel="stylesheet">
+    <!--build:css css/main.css-->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200&family=Spectral:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <!--endbuild-->
     <title>Coaching Platform</title>
   </head>
   <body>
@@ -27,7 +29,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link mx-lg-3 active" aria-current="page" href="#">Home</a>
+            <a class="nav-link mx-lg-3 active" aria-current="page" href="./index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link mx-lg-3" href="./about.html">About</a>
@@ -59,7 +61,7 @@
   <div class="container py-5">
     <h2 class="fs-2 text-end mb-4 font-dark">Unlock your true potential</h2>
     <div class="video-container position-relative">
-      <img class="img-fluid" src="./images/COLOURBOX45238238.jpg"/>
+      <img class="img-fluid" src="/images/COLOURBOX45238238.jpg"/>
       <a class="video-btn-play" href="#"><span class="fa fa-play-circle"></span></a>
     </div>
     <h2 class="fs-2 text-start mt-4 font-darker">An oppertunity to upskill & grow</h2>
@@ -212,17 +214,13 @@
   </footer>
   <!--Footer end-->
     
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!--build:js js/main.js-->
    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-   <script src="node_modules/popper.js/dist/popper.min.js"></script>
+   <script src="node_modules/popper.js/umd/popper.min.js"></script>
+   <script src="js/scripts.js"></script>
+   <!--endbuild-->
    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script>
-    var myCarousel = document.querySelector('#cardcarousel')
-    var carousel = new bootstrap.Carousel(myCarousel, {
-    interval: 1000,
-    wrap: false
-    })
-  </script>
   </body>
 </html>
